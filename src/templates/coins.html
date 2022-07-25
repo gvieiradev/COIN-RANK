@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRIPTO RANK</title>
+
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header id="header">
+        <div class="container__header">
+            <div class="container__nav">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="./index.html" class="select">HOME</a></li>
+                        <li><a href="./coins.html">Coins</a></li>
+                        <li><a href="#">Markets</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                </nav>
+                <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container_all" id="container__all">
+        
+        <div class="cover">
+            <div class="bg_color"></div>
+        </div>
+
+        <div class="body__page">
+        <table>
+		<thead>
+			<tr>
+                <th>Top</th>
+				<th>Coin</th>
+				<th>Symbol</th>
+				<th>Market</th>
+				<th>24h volume</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td id="btcCoins"></td>
+				<td id="btc"></td>
+				<td id="btcS"></td>				
+				<td id="btcM"></td>				
+				<td id="btc24"></td>				
+			</tr>
+			<tr>
+				<td id="ethCoins"></td>
+				<td id="eth"></td>
+				<td id="ethS"></td>
+				<td id="ethM"></td>
+				<td id="eth24"></td>
+			</tr>
+			<tr>
+				<td id="usdtCoins"></td>
+				<td id="usdt"></td>
+				<td id="usdtS"></td>
+				<td id="usdtM"></td>
+				<td id="usdt24"></td>
+			</tr>
+			<tr>
+				<td id="usdcCoins"></td>
+				<td id="usdc"></td>
+				<td id="usdcS"></td>
+				<td id="usdcM"></td>
+				<td id="usdc24"></td>
+			</tr>
+			<tr>
+				<td id="bnbCoins"></td>
+				<td id="bnb"></td>
+				<td id="bnbS"></td>
+				<td id="bnbM"></td>
+				<td id="bnb24"></td>
+			</tr>
+		</tbody>
+	</table>
+        </div>
+    </div>
+
+    <script src="/src/assets/coins.js"></script>
+    <script src="/src/assets/script.js"></script>
+</body>
+</html>
